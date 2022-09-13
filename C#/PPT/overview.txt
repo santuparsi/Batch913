@@ -1,0 +1,48 @@
+Dotnet Platforms for application development
+============================================
+1. Dotnet Framework
+2. Dotnet Core
+What Dotnet Core
+==================
+Dotcore is a SDK and it provides an environment to develop diff applications like
+Web Application(Browser App)
+REST API(Service APP)
+Console APP
+
+Dotnet Components
+=================
+1. Languages
+
+C#.net, VB.net,VC++,F#
+
+2. Technologies
+
+Enity Framework Core- use to connect to backend databases(SQLSERVER,Oracle,Mysql)
+Asp.net Core MVC- its a  framework use to develop web apps
+Asp.net Core Web API- its a framework use to develop rest apis(http services)
+
+3. Libraries(Provides build in functionality to the app)
+
+ex: System,
+System.IO
+System.Collections
+System.Data.Entity
+System.Web.MVC
+
+4. CLR(Command Lang Runtime)
+It execute any dotnet app
+app.cs-------------------csc--------------MSIL(Assembly)-------------CLR(JIT)-------------MachineCode
+
+Dotnet Core Versions
+====================
+1.0,1.1,2.0,2.1,2.2,3.1,5.0,6.0
+
+Visual Studio
+===============
+IDE to develop dotnet apps
+VS2019,VS2022
+
+C#
+---
+1. it is programming lang
+2. it is object oriented
