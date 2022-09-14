@@ -18,12 +18,12 @@ namespace HandsOnArray
             foreach (int k in nos)
                 Console.WriteLine(k);
 
-            //Console.WriteLine("Enter the value");
-            //int n = int.Parse(Console.ReadLine());
-            //if (Array.BinarySearch(nos, n) >= 0)
-            //    Console.WriteLine("Valid value");
-            //else
-            //    Console.WriteLine("Invalid Value");
+            Console.WriteLine("Enter the value");
+            int n = int.Parse(Console.ReadLine());
+            if (Array.BinarySearch(nos, n) >= 0)
+                Console.WriteLine("Valid value");
+            else
+                Console.WriteLine("Invalid Value");
             int[] c = new int[4];
             Array.Copy(nos, c, 4);
             Console.WriteLine();

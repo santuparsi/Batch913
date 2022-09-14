@@ -19,10 +19,10 @@ namespace HandsOnArray
             n[1, 1] = 33;
             n[2, 0] = 77;
             n[2, 1] = 32;
-            int row = n.GetUpperBound(0) - n.GetLowerBound(1) + 1;
-            int col = n.GetUpperBound(1) - n.GetLowerBound(0) + 1;
-            Console.WriteLine("Row Size:" + row);
-            Console.WriteLine("Col Size:" + col);
+            //int row = n.GetUpperBound(0) - n.GetLowerBound(1) + 1;
+            //int col = n.GetUpperBound(1) - n.GetLowerBound(0) + 1;
+            //Console.WriteLine("Row Size:" + row);
+            //Console.WriteLine("Col Size:" + col);
             //access value
             Console.WriteLine("value at 1st row and 2nd column:{0}", n[0, 1]); //45
             foreach (int k in n)

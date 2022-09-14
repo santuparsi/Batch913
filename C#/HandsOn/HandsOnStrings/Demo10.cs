@@ -11,11 +11,11 @@ namespace HandsOnStrings
     {
         static void Main()
         {
+            //Immutable string
             string str = "Good Morning Users";
             str.Replace("Morning", "Evening");
-           
             Console.WriteLine(str);
-            ////Mutable strings
+            //Mutable strings
             StringBuilder obj = new StringBuilder("Good Morning ");
             obj.AppendLine("Users");
             Console.WriteLine(obj);

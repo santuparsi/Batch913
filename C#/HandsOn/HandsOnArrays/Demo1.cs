@@ -13,7 +13,7 @@ namespace HandsOnArray
             Console.WriteLine("How many numbers store in the array");
             int n = int.Parse(Console.ReadLine());
             int[] no = new int[n];
-            Console.WriteLine("Size of the array: " + no.Length);
+            Console.WriteLine("Size of the array: " + no.Length); //Length returns size of the array
             //Read array values from the input
             for(int i=0;i<n;i++)
             {
