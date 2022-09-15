@@ -57,7 +57,7 @@ namespace HandsOnExceptionHandling
                 //closing file objects
             }
             #endregion
-            Console.WriteLine(Div(4, 2));
+            //Console.WriteLine(Div(4, 2));
         }
     }
 }
