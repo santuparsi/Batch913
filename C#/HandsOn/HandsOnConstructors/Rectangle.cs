@@ -24,6 +24,9 @@ namespace HandsOnConstructors
         {
             Rectangle r = new Rectangle(3, 4);
             r.Area();
+           
+            Rectangle r2 = new Rectangle(34, 56);
+            r.Area();
         }
     }
 }

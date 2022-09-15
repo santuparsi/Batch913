@@ -14,7 +14,7 @@ namespace HandsOnConstructors
         {
             this.r = r;
         }
-        static Circle()
+        static Circle() //static constructor
         {
             Console.WriteLine("I am invoked only once.");
             PI = 3.14;

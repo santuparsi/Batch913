@@ -34,12 +34,16 @@ namespace HandsOnConstructors
         {
             Sample s1 = new Sample();
             s1.Show();
+            Sample s = new Sample();
+            s.Show();
             Sample s2 = new Sample(12,45);
             s2.Show();
             Sample s3 = new Sample(s2); //copy s2 to s3
             s3.Show();
             Sample s4 = new Sample(s1);
             s4.Show();
+          
+            
         }
 
     }
