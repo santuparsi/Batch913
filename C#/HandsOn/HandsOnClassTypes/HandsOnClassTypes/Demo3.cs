@@ -19,7 +19,7 @@ namespace HandsOnClassTypes
 
     {
         public void M4() { }
-        public void M5() { }
+        public void M1(string name) { }
     }
     class Demo3
     {
@@ -28,7 +28,7 @@ namespace HandsOnClassTypes
             Sample obj = new Sample();
             obj.M1();
             obj.M3();
-            obj.M5();
+            obj.M1("Rohan");
         }
     }
 }

@@ -19,6 +19,7 @@ namespace HandsOnClassTypes
     {
 
     }
+    
     class Demo1
     {
         static void Main()

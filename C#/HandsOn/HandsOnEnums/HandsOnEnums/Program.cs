@@ -4,7 +4,7 @@ namespace HandsOnEnums
 {
     public enum AccountType { Savings=100,Current,Joint};
     public enum Week:byte {Mon=10,Tue,Wed=30,Thu,Fri=40,Sat,Sun };
-    public enum Engine : short { Start=1,Stop=0};
+    public enum Engine : short { Start,Stop};
     class Program
     {
         public static AccountType AccountType { get; set; }

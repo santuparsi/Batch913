@@ -5,12 +5,15 @@ namespace HandsOnGenericCollections
     //Generic class
     class Sample<T>//generic class
     {
+        //Generic variable
         public T a;
         public T b;
+        //Generic parameters
         public void M(T i,T j)
         {
             Console.WriteLine("i={0} j={1}", i, j);
         }
+        //Generic rutrn type and parametes(Generic method)
         public T M1(T k)
         {
             return k;

@@ -38,5 +38,9 @@ namespace HandsOnInterfaces
     }
     class Demo1
     {
+        static void Main()
+        {
+            //Test Student Repository functions here using Menu driven code.
+        }
     }
 }

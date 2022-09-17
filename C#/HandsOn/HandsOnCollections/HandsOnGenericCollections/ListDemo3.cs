@@ -25,7 +25,7 @@ namespace HandsOnGenericCollections
                   new Product(){Pid=3,Pname="P2",Price=1000},
                    new Product(){Pid=4,Pname="P3",Price=1000},
                     new Product(){Pid=5,Pname="P4",Price=1000},
-            };
+            }; //collection initializer
             Product p = products[0];
             foreach(var item in products)
             {

@@ -10,12 +10,12 @@ namespace HandsOnNonGenericCollections
     {
         static void Main()
         {
-            Hashtable hs1 = new Hashtable()
-            {
-                [1234]="Rohan",
-                [2345]="Karan",
-                ['c']="Canada"
-            };
+            //Hashtable hs1 = new Hashtable()
+            //{
+            //    [1234]="Rohan",
+            //    [2345]="Karan",
+            //    ['c']="Canada"
+            //};
             Hashtable hs = new Hashtable();
             //add items(key is not be duplicate or null)
             hs.Add(1023, "Rohan");

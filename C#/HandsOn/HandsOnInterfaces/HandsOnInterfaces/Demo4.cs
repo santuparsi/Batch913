@@ -10,6 +10,8 @@ namespace HandsOnInterfaces
     {
         void M1();
     }
+    interface IY : IX { }
+    interface IZ : IX { }
     class Class1 : IX
     {
         public void M1()
