@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91BC6C43-F250-4AFD-86B1-196269CBBCD6}</ProjectGuid>
+    <ProjectGuid>{818474C2-4EF0-4585-95B2-BE8D1E73CC2B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HandsOnRegularExpression</RootNamespace>
-    <AssemblyName>HandsOnRegularExpression</AssemblyName>
+    <RootNamespace>HandsOnCSharp6_NewFeatures</RootNamespace>
+    <AssemblyName>HandsOnCSharp6_NewFeatures</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HandsOnRegularExpression.Demo</StartupObject>
+    <StartupObject>HandsOnCSharp6_NewFeatures.Demo07</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Demo.cs" />
     <Compile Include="Demo01.cs" />
     <Compile Include="Demo02.cs" />
     <Compile Include="Demo03.cs" />
@@ -56,13 +55,6 @@
     <Compile Include="Demo07.cs" />
     <Compile Include="Demo08.cs" />
     <Compile Include="Demo09.cs" />
-    <Compile Include="Demo10.cs" />
-    <Compile Include="Demo11.cs" />
-    <Compile Include="Demo12.cs" />
-    <Compile Include="Demo13.cs" />
-    <Compile Include="Demo14.cs" />
-    <Compile Include="Demo15.cs" />
-    <Compile Include="ErrorInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

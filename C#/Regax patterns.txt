@@ -1,0 +1,14 @@
++ ->one or more occurence
+* ->zero or more occurence
+\char->only that char
+.->any char 
+\d ->any degit
+\D -> any non degin char
+
+{}-limit of char
+{min,max}
+[]-group the chars
+^->begining of string
+$->ending of string
+-? one  or 0 occurence
+"^strr$"

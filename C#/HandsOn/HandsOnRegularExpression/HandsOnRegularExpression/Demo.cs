@@ -20,7 +20,7 @@ namespace HandsOnRegularExpression
         }
         static void Main()
         {
-            if (ValidateMobile("+91 9567890000"))
+            if (ValidateMobile("+91 967890000"))
             {
                 ErrorInfo.ErrorMessage="Valid Mobile No";
             }
