@@ -1,0 +1,11 @@
+1.
+1.Create a console project
+2. Creat a entity movie(movieid,moviename,year,lang,actor,director)
+3. create a List of Movies and add the list of movies to movielist txt file.
+
+2.
+1.Create a console project
+2. Creat a class movie(movieid,moviename,year,lang,actor,director
+3. serialize and deserialize the movie class using binary and xml serialization and deserialization
+
+3. Repeat collection assignment using generic collections.

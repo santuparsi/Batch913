@@ -9,10 +9,7 @@ namespace HandsOnDelegates
     public delegate void myDalegate();
     class Demo1
     {
-        public Demo1(myDalegate d)
-        {
-            d();
-        }
+       //delegate call back
         public static void Print()
         {
             Console.WriteLine("Printing..");
@@ -24,7 +21,7 @@ namespace HandsOnDelegates
         static void Main()
         {
             M(Print);
-            Demo1 d = new Demo1(Print);
+            
         }
     }
 }
